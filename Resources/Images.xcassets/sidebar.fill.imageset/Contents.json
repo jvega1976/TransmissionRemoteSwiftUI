@@ -1,0 +1,20 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "sidebar.fill@2x.pdf"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "sidebar.fill@1x.pdf"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template",
+    "auto-scaling" : "auto"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "images" : [
+    {
+      "filename" : "PlayNow@1x-1.pdf",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "PlayNow@2x.pdf",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "PlayNow@3x.pdf",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "PlayNow@1x-2.pdf",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "PlayNow@2x-1.pdf",
+      "idiom" : "ipad",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "PlayNow@1x.pdf",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto",
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

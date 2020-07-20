@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "qBitTorrent.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

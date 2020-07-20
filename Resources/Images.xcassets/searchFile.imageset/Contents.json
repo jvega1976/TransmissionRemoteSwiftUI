@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "filename" : "searchFile@1x.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto",
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

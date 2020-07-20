@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "freeSpace@2x.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "freeSpace-mac@2x.pdf",
+      "idiom" : "mac"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto",
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

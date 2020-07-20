@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8B1FA95D-3509-4C91-AD23-F4A61C5D0B65"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE1F6295-667E-4B8D-872D-F920B7BBC036"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "263EE261-3FA1-4F24-8BC4-F72B65624097"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "184942C8-E311-4FFE-B9DE-9C111D76027B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D0820D4-19D2-4748-8FA1-BE284AA74381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataModel/RPCConnector.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "refreshData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AAD0B9D-168A-4B3F-9D7B-78D9C7043FE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataModel/RPCConnector.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "524"
+            endingLineNumber = "524"
+            landmarkName = "handleUpdateData(bgTask:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C59B9002-6F34-4AE0-9C02-A6541CC24054"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/RPCSession-Ext.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "getInfo(_:forTorrents:withPriority:andCompletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25255153-5451-4A3F-9733-B19042F1C36F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/RPCSession-Ext.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "getInfo(_:forTorrents:withPriority:andCompletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC7923F0-01E6-4BEF-AEDA-1506AC547A1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/TorrentIcon.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
+            landmarkName = "init(type:color:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C824A4B-B3A3-4A9B-8629-0B896FFD7C5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "638D863C-AA61-4E7C-867A-984EC3EB3A36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27228903-CC79-4671-99D4-16EE532F44C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22A5964D-9CB0-4D14-B7DE-12A77156310C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0441B407-D6D8-4F4E-A8CB-D57F122DA268"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05CFB53A-B381-4C86-9312-CF6FAFAD6E9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/TransmissionRemoteSwiftApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "031E46C9-FBE2-46DD-9C16-0A8B5E419944"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/AppState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "updateOrientation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95D6B878-E905-4791-A323-96BAAEFB4D4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/SplitView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7F7BB99-B867-4310-8A98-1FAE14929F79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/TransmissionRemoteSwiftApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "TransmissionRemoteSwiftApp"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3CAC50C-57FB-40F0-9DE8-5B93B7EDF6EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataModel/RPCConnector.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "767"
+            endingLineNumber = "767"
+            landmarkName = "getFiles()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC - 75b79c92d2375c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1173">
+               </Location>
+               <Location
+                  uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC - 75b79c92d2375c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1361">
+               </Location>
+               <Location
+                  uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC - 75b79c92d2375c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1478">
+               </Location>
+               <Location
+                  uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC - 75b79c92d2375c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1595">
+               </Location>
+               <Location
+                  uuid = "5B9872D5-F76E-4F65-84C2-5159125680BC - 75b79c92d2375c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1709">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "204F4967-2DF3-4114-B501-30AE9E2E4D57"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "598">
+               </Location>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "715">
+               </Location>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "1DC5E39B-C9D8-4BCC-AC1C-382D2EB782FA - 75b79c92d2373f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI.ScenePhase) -&gt; () in TransmissionRemoteSwiftUI.TorrentDetails.body.getter : some"
+                  moduleName = "TransmissionRemoteSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "946">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDB117C7-F042-498D-BD79-ED2E85E22115"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92C87168-ED66-4568-B6E5-07EEFFF1B4CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/TorrentIcon.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13C94E23-2697-4264-B50F-64E9F5FFB6A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentRowView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "13C94E23-2697-4264-B50F-64E9F5FFB6A1 - 67c5c6e22ab00324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; iOS_1.AlertField in iOS_1.TorrentRowView.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentRowView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "13C94E23-2697-4264-B50F-64E9F5FFB6A1 - 11daaf99eddcf8d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #3 () -&gt; iOS_1.AlertField in iOS_1.TorrentRowView.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentRowView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12123C72-02C6-46E9-B12B-5FD57F742E9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentRowView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "12123C72-02C6-46E9-B12B-5FD57F742E9D - 67c5c6e22ab003e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; iOS_1.AlertField in iOS_1.TorrentRowView.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentRowView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "12123C72-02C6-46E9-B12B-5FD57F742E9D - 4cf17c158962f21e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #3 () -&gt; iOS_1.AlertField in iOS_1.TorrentRowView.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentRowView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97077A1B-2872-4176-8772-2AA0629FA61A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFiles.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F943A3BE-49F4-42EF-9B74-149EDF599ED9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFiles.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1074626D-4641-4365-B31B-8A288403F6DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ADBE730-825E-4869-ABA4-8821F32335D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "expand(rowItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95845C76-80C1-4817-BCD9-B85411AE552D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "036839C9-A1D3-4532-AFBB-6E817043EE74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFileSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "036839C9-A1D3-4532-AFBB-6E817043EE74 - 3bf1aef4386d13e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.String) -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Toggle&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt; in iOS_1.TorrentFileSort.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentFileSort.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "917">
+               </Location>
+               <Location
+                  uuid = "036839C9-A1D3-4532-AFBB-6E817043EE74 - 5ed9d9b6cc53aa1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TransmissionRPC.FSItem, TransmissionRPC.FSItem) -&gt; Swift.Bool in closure #1 () -&gt; () in closure #1 (Swift.String) -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Toggle&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt; in iOS_1.TorrentFileSort.body.getter : some"
+                  moduleName = "iOS_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS%20-%20Data/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRemoteSwiftUI/iOS/TorrentFileSort.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "201263F9-942E-4D6D-ACC1-1722691260A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFileSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9DDD27F-4E5A-4F3E-82FC-98821C32CED6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFileSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81530458-0209-4454-A319-69FEA335A0BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataModel/RPCConnector.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "782"
+            endingLineNumber = "782"
+            landmarkName = "getFileStats()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "354BBF8D-AB9F-4CB8-8864-ECDE188CEA20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataModel/RPCConnector.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "803"
+            endingLineNumber = "803"
+            landmarkName = "startFileRefresh()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AFEC950-FB7E-420C-8E66-110907D6EF5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38BF8652-C580-435B-8848-F1D190C53F39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "==(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A32CF85-E166-49E1-9029-5F4FB365DEAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init(_:idKeyPath:childrenKeyPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD8A6344-C851-4C29-BC10-57DD92CDE649"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DD8A6344-C851-4C29-BC10-57DD92CDE649 - 7ca1be91a1cd1f2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(C, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.(RowElement in _C5412BC4D16483DEAA1E3328A07AE357)&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in Outline.Outline.body.getter : some"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1497">
+               </Location>
+               <Location
+                  uuid = "DD8A6344-C851-4C29-BC10-57DD92CDE649 - 8acb284f4b7a9c64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.(RowElement in _C5412BC4D16483DEAA1E3328A07AE357)&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(C, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.(RowElement in _C5412BC4D16483DEAA1E3328A07AE357)&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in Outline.Outline.body.getter : some"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1053">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9FD9EFF-0299-4B84-82ED-00112E3C9ABA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "CollectionData"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D892192-1EF3-4118-93A9-14BC895B7D45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "collapse(rowItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "data"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - 9c2e637e4b303b18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Outline.Outline.CollectionData.data : A.Swift.Sequence.Element"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - f4e51feb78607241"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.data.getter : A.Element"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "439">
+               </Location>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - 7e26db5452c34655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.data.setter : A.Element"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "665">
+               </Location>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - 47f484411f255532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.data.modify : A.Element"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - 27a9b2dd14d1c155"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.data.modify : A.Element with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "CF6861EB-1AB6-4904-991A-A6BB4E536BCF - c76ebc3669ef2f62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.$data.getter : Combine.Published&lt;A.Element&gt;.Publisher"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "CollectionData"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - 323ba0c0a992a2ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Outline.Outline.CollectionData.flatData : Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - 8fc49cbd17812749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.flatData.getter : Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "446">
+               </Location>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - 1f5a2a348f8f9405"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.flatData.setter : Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "481">
+               </Location>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - 8f5208178edc6e34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.flatData.modify : Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - 684f22d3d53024c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.flatData.modify : Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "111B4AD7-1D39-4D2A-9B80-9528E8D50566 - c07244407f510506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.$flatData.getter : Combine.Published&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;&gt;.Publisher"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D78DC56A-4B95-48DF-B917-4F82B4031D0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D78DC56A-4B95-48DF-B917-4F82B4031D0D - e257962fd6316a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(C, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in Outline.Outline.body.getter : some"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1053">
+               </Location>
+               <Location
+                  uuid = "D78DC56A-4B95-48DF-B917-4F82B4031D0D - 39e024d63dd42a6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Outline.Outline&lt;A, B, C, D&gt;.RowElement) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(C, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Outline.Outline&lt;A, B, C, D&gt;.RowElement&gt;, Swift.AnyHashable, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.environmentObject&lt;A where A1: Combine.ObservableObject&gt;(A1) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in Outline.Outline.body.getter : some"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "821">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16EB10C0-772A-4AB8-B62B-882E443D4411"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "data"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5EC0552-3072-4B60-ADEF-A94D3740DE61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "init(_:idKeyPath:childrenKeyPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A75BD1C1-4964-4004-8BE7-7F2D0CED2B8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30E4F5C2-E2A0-4E53-8666-C2EFB15D3FDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A73DF85C-1308-4799-9F32-41AF972C7F0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "data"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6D46CC2-03A3-4B76-8109-15DAE101E71C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "collapse(rowItem:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6D46CC2-03A3-4B76-8109-15DAE101E71C - b54383b47b26e6e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outline.Outline.CollectionData.collapse(rowItem: A.Element) -&gt; ()"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "F6D46CC2-03A3-4B76-8109-15DAE101E71C - 1c7a0375dec96d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Outline.Outline&lt;A, B, C, D&gt;.RowElement) -&gt; Swift.Bool in Outline.Outline.CollectionData.collapse(rowItem: A.Element) -&gt; ()"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31B0470D-CAC5-4772-81BE-DA8FD43D6F52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "collapse(rowItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BE8E74B-F595-4620-AB95-77AD2185DFDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "collapse(rowItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42F6BDEC-D2B5-4761-B45F-F8BDD0FA5F6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "collapse(rowItem:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42F6BDEC-D2B5-4761-B45F-F8BDD0FA5F6A - bab09a10e9d4eeb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in Outline.Outline.CollectionData.collapse(rowItem: A.Element) -&gt; ()"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  uuid = "42F6BDEC-D2B5-4761-B45F-F8BDD0FA5F6A - 29a9e308b275b032"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Outline.Outline&lt;A, B, C, D&gt;.RowElement) -&gt; Swift.Bool in closure #2 () -&gt; () in Outline.Outline.CollectionData.collapse(rowItem: A.Element) -&gt; ()"
+                  moduleName = "Outline"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/Outline/Sources/Outline/Outline.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "194">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54B711C1-3E91-48C4-9364-7E67FCF3A241"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/TorrentFileSort.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "add(withName:isFolder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - 85b7e728e9f5cdab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransmissionRPC.FSItem.parent.getter : Swift.Optional&lt;TransmissionRPC.FSItem&gt;"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "321"
+                  endingLineNumber = "321"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - 80cf6a3453b5cd9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of TransmissionRPC.FSItem.parent : Swift.Optional&lt;TransmissionRPC.FSItem&gt;"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "321"
+                  endingLineNumber = "321"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - ae4f92c86c7e65df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransmissionRPC.FSItem.parent.setter : Swift.Optional&lt;TransmissionRPC.FSItem&gt;"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "321"
+                  endingLineNumber = "321"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - 69dca597717c8ec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransmissionRPC.FSItem.parent.modify : Swift.Optional&lt;TransmissionRPC.FSItem&gt;"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - ab5a5f0b57f31afa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransmissionRPC.FSItem.parent.modify : Swift.Optional&lt;TransmissionRPC.FSItem&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "321"
+                  endingLineNumber = "321"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "EDE93C4C-FAE4-448B-BC35-C9E10644DD2E - c39a49d0c3849469"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransmissionRPC.FSItem.$parent.getter : Combine.Published&lt;Swift.Optional&lt;TransmissionRPC.FSItem&gt;&gt;.Publisher"
+                  moduleName = "TransmissionRPC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "321"
+                  endingLineNumber = "321"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73662C2E-FCEE-4D31-8201-48E3A788EA50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../macOS/Users/jvega/Documents/Development/TransmissionRemote/TransmissionRPC/Sources/TransmissionRPC/FSDirectory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "filterPredicate"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F4BC4E1-AEC0-4ED7-B6A7-E4D59F49F8CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/AlertTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "alert"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CDAA6B9-1648-49B2-8AD9-CFED02626EF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/AlertTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "dismiss()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

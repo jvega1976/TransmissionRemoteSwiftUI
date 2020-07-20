@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "mac",
+      "filename" : "iconStop@1x.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "iconStop@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template",
+    "preserves-vector-representation" : true,
+    "auto-scaling" : "auto"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "trash.fill@2x.pdf"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "trash.fill@1x-1.pdf"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template",
+    "preserves-vector-representation" : true,
+    "auto-scaling" : "auto"
+  }
+}

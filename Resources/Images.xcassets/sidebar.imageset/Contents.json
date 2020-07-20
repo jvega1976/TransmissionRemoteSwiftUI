@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "sidebar@2x.pdf"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "sidebar@1x.pdf"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template",
+    "preserves-vector-representation" : true,
+    "auto-scaling" : "auto"
+  }
+}

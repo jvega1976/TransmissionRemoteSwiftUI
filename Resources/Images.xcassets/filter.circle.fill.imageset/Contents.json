@@ -1,0 +1,34 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "filter.circle.fill@2x.pdf"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "filter.circle.fill@2x-1.pdf"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "filter.circle.fill@2x-2.pdf"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "filter.circle.fill@2x-3.pdf",
+      "subtype" : "mac-catalyst"
+    },
+    {
+      "idiom" : "mac",
+      "filename" : "filter.circle.fill@1x.pdf"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template",
+    "preserves-vector-representation" : true,
+    "auto-scaling" : "auto"
+  }
+}
