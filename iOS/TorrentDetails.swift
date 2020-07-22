@@ -76,11 +76,9 @@ struct TorrentDetails: View {
                     if displaySearch {
                         SearchBarView(displayed: $displaySearch, perform: self.connector.searchFiles)
                     }
-                    if self.connector.torrent.files != nil {
-                        TorrentFiles()
-                            .id(connector.torrent.trId)
-                            .environment(\.editMode, self.$connector.fileEditMode)
-                    }
+                    TorrentFiles()
+                        .id(connector.torrent.trId)
+                        .environment(\.editMode, self.$connector.fileEditMode)
                 }.tabItem {
                     Text("Files")
                     Image("files")
@@ -98,7 +96,7 @@ struct TorrentDetails: View {
         }
         .navigationBarTitle(self.navigationBarTitle)
         .toolbar {
-            ToolbarItem(placement: .automatic) {
+            ToolbarItem(placement: .navigationBarTrailing) {
                 HStack {
                     if tabSelection == 1 {
                         Button(action: {
@@ -227,14 +225,14 @@ struct TorrentDetails_Previews: PreviewProvider {
     private static let sema = DispatchSemaphore(value: 0)
     
     @ObservedObject static var connector: RPCConnector = {
-        let connector = RPCConnector(serverConfig: RPCServerConfig())
-        connector.connectSession()
+        let connector = RPCConnector()
+        connector.torrent = torrentsPreview().first!
         return connector
     }()
     
     @ObservedObject static var appState: AppState = {
         let appState = AppState()
-        appState.sizeIsCompact = false
+        appState.sizeIsCompact = true
         appState.detailViewIsDisplayed = false
         return appState
     }()
@@ -244,12 +242,13 @@ struct TorrentDetails_Previews: PreviewProvider {
     @State static var tab :Int = 1
     
     static var previews: some View {
-        Group {
             TorrentDetails(displayDetail: $displayDetail)
                 .environmentObject(self.connector)
                 .environmentObject(self.appState)
                 .environmentObject(self.connector.message)
-                .device()
-        }
+                .preferredColorScheme(.dark)
+                .previewDevice("iPhone 8 Plus")
+                .environment(\.colorScheme, .dark)
+                
     }
 }

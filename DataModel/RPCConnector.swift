@@ -75,7 +75,7 @@ enum BgTaskType {
         }
     }
 
-    @Published var freeSpace: String = "10 GB"
+    @Published var freeSpace: String = "..."
     
     @Published var editMode: EditMode = .inactive
     @Published var fileEditMode: EditMode = .inactive
@@ -205,7 +205,6 @@ enum BgTaskType {
                                 fsDirs.forEach { fsDir in
                                     if let torrent = self.categorization.items.first(where: { $0.trId == fsDir.id }) {
                                         DispatchQueue.main.async {
-                                            //torrent.objectWillChange.send()
                                             torrent.files = fsDir
                                         }
                                     }
@@ -219,8 +218,7 @@ enum BgTaskType {
             self.session?.getSessionConfig(andCompletionHandler: {sessionConfig, error in
                 DispatchQueue.main.async {
                     if error != nil {
-                        self.message.type = .error
-                        self.message.message = error!.localizedDescription
+                        self.getSessionConfig()
                     } else {
                         self.sessionConfig.update(with: sessionConfig!)
                     }
@@ -280,6 +278,15 @@ enum BgTaskType {
                         } else {
                             self.sessionStats.update(with:sessionStats!)
                         }
+                    }
+                })
+                
+                self.session?.getFreeSpace(availableIn: self.sessionConfig.downloadDir, andCompletionHandler: { space, error in
+                    if error == nil {
+                        guard let freeSpace = space else { return }
+                        DispatchQueue.main.async {
+                            self.freeSpace = ByteCountFormatter.formatByteCount(freeSpace)
+                        }                        
                     }
                 })
             }
@@ -524,8 +531,6 @@ enum BgTaskType {
                 } else {
                     self.message.type = .info
                     self.message.message = "Torrent \(self.torrentFile?.name ?? "") suscessfully added"
-                    //self.refreshData()
-                    self.getInfo(for: [trId!])
                 }
             }
         })
@@ -576,10 +581,10 @@ enum BgTaskType {
                             print(error ?? "")
                         }
                     })
-                    DispatchQueue.main.async {
-                        self.peers.removeAll(where: { !(peers!.contains($0)) })
-                        self.peerStat = peerStat!
-                    }
+                }
+                DispatchQueue.main.async {
+                    self.peers.removeAll(where: { !(peers!.contains($0)) })
+                    self.peerStat = peerStat!
                 }
             }
         }

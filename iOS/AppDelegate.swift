@@ -97,24 +97,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-    
-    
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        if self.connector.session != nil {
-            self.connector.scheduleAppRefresh(.notify)
-            self.connector.scheduleAppRefresh(.updateData)
-        }
-    }
-    
-    func applicationWillResignActive(_ application: UIApplication) {
-
-        if self.bgSession == nil {
-            guard let session = try? RPCSession(withURL: self.connector.serverConfig!.configURL!, andTimeout: self.connector.serverConfig!.requestTimeout) else { return }
-            self.bgSession = session
-        } else {
-            try? self.bgSession?.restart()
-        }
-    }
-    
-
 }

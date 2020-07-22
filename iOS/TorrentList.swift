@@ -40,7 +40,7 @@ struct TorrentList: View {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
                 VStack(alignment: .center, spacing: 5) {
                     TransferSpeeds(sessionStats: self.connector.sessionStats, sessionConfig: self.connector.sessionConfig)
-                        .padding(.horizontal)
+                        .padding(.horizontal, self.appState.sizeIsCompact && !self.appState.isiPhone ? 0 : nil)
                     if self.displaySearchBar {
                         Divider()
                         SearchBarView(displayed: self.$displaySearchBar, perform: self.connector.searchTorrents)
@@ -160,6 +160,20 @@ struct TorrentList: View {
                                     ])
                                 }
                             }
+#if targetEnvironment(macCatalyst)
+                                Button(action: {self.displayServers = true }) {
+                                    Image(systemName: "rectangle.connected.to.line.below")
+                                        .formatIcon(self.appState)
+                                    //.scaleEffect(0.9)
+                                }
+                           
+                            
+                                Button(action: { self.displaySessionConfig = true }) {
+                                    Image(systemName: "gearshape")
+                                        .formatIcon(self.appState)
+                                }
+                            
+#endif
                             Button(action: { self.displayStats.toggle() }) {
                                 Image(systemName: "chart.pie")
                                     .formatIcon(self.appState)
@@ -184,8 +198,10 @@ struct TorrentList: View {
                                         .scaleEffect(1.2)
                                 }
                             }
+                            
                         }
                     }
+#if os(iOS)
                     ToolbarItem(placement: .navigationBarLeading) {
                         HStack {
                             Button(action: {self.displayServers = true }) {
@@ -202,9 +218,9 @@ struct TorrentList: View {
                             
                         }
                     }
-                    
+#endif
                 }
-                HStack(alignment:.center, spacing: 20) {
+                HStack(alignment:.center, spacing: self.appState.sizeIsCompact && !self.appState.isiPhone ? 10 : 20) {
                     Spacer()
                     Button(action: {
                         self.importFiles(singleOfType: [.torrent, .fileURL,.text, .data,.content,.plainText]) { result in
@@ -275,7 +291,6 @@ struct TorrentList: View {
                     Spacer()
                 }
                 .padding(.vertical, 10.0)
-                .padding(.horizontal)
                 .background(Color(.sRGB, white: self.colorScheme == .light ? 0.98 : 0.1, opacity: 1))
                 .opacity(0.98)
             }
@@ -298,6 +313,7 @@ struct TorrentList_Previews: PreviewProvider {
     @ObservedObject static var connector: RPCConnector = {
         let connector = RPCConnector()
         let torrents = torrentsPreview()
+        connector.freeSpace = "679 GB"
         connector.categorization.setItems(torrents)
         return connector
     }()
@@ -334,7 +350,7 @@ struct TorrentList_Previews: PreviewProvider {
                 .environmentObject(connector.message)
                 .environment(\.editMode, $connector.editMode)
                 .preferredColorScheme(.dark)
-                .previewDevice("iPhone 11 Pro Max")
+                .previewDevice("iPhone 8 Plus")
                 .environment(\.colorScheme, .dark)
             
             TorrentList(displayAddTorrent: self.$displayAddTorrent, displayStats: $displayStats, displayServers: $displayServers, displaySessionConfig: $displaySession)

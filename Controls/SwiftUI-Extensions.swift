@@ -620,7 +620,7 @@ extension Image {
                 .imageScale(.large)
                 .scaledToFit()
                 .foregroundColor(.blue)
-                .frame(width: 30, height: 30, alignment: .center)
+                .frame(width: 28, height: 28, alignment: .center)
                 .fixedSize()
         }
         else {

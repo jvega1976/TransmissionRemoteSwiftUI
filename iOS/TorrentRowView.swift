@@ -25,7 +25,7 @@ struct TorrentRowView: View {
     
     
     var body: some View {
-        HStack {
+        HStack(alignment: .center, spacing: 10) {
             VStack {
                 if self.appState.sizeIsCompact || ( self.appState.detailViewIsDisplayed) {
                     TorrentIcon(torrent: torrent)
@@ -55,7 +55,6 @@ struct TorrentRowView: View {
                         }
                     }
             }
-            .paddingTorrent(.trailing)
             VStack {
                 if self.appState.sizeIsCompact || !self.appState.detailViewIsDisplayed {
                     NavigationLink(destination: TorrentDetails(displayDetail: $displayDetail),isActive: self.$displayDetail) {
@@ -148,7 +147,7 @@ struct TorrentRowView: View {
         .cornerRadius(15)
         .overlay(
             RoundedRectangle(cornerRadius: 15).stroke(Color.primary.opacity(0.7), lineWidth: 1)
-                    )
+        )
     }
 }
 

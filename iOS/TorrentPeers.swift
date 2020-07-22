@@ -26,13 +26,15 @@ struct TorrentPeers: View {
                 } else {
                     ForEach (self.connector.peers, id: \.ipAddress) { peer  in
                         if self.appState.sizeIsCompact {
-                            Divider()
                             PeerCompactRowView(peer: peer)
+                                .padding(.bottom)
+                            
                         } else {
                             PeerRowView(peer: peer)
                                 .padding(.horizontal)
                             Divider()
                         }
+                      
                     }
                 }
             }.groupBoxStyle(InfoGroupBoxStyle(colorScheme: self.colorScheme))
@@ -72,18 +74,23 @@ struct TorrentPeers: View {
 
 struct TorrentPeers_Previews: PreviewProvider {
     static let connector: RPCConnector = {
-        let serverConfig = RPCServerConfig()
-        let connector = RPCConnector(serverConfig: serverConfig)
-        connector.session = try? RPCSession(withURL: serverConfig.configURL!, andTimeout: serverConfig.requestTimeout)
-        connector.torrent.trId = 103
+        let connector = RPCConnector()
+        let data = Data("{    \"arguments\": {        \"torrents\": [            {                \"id\": 302,                \"peers\": [                    {                        \"address\": \"94.242.213.6\",                        \"clientIsChoked\": true,                        \"clientIsInterested\": false,                        \"clientName\": \"Transmission 3.00\",                        \"flagStr\": \"TUE\",                        \"isDownloadingFrom\": false,                        \"isEncrypted\": true,                        \"isIncoming\": false,                        \"isUTP\": true,                        \"isUploadingTo\": true,                        \"peerIsChoked\": false,                        \"peerIsInterested\": true,                        \"port\": 50240,                        \"progress\": 0.5637,                        \"rateToClient\": 0,                        \"rateToPeer\": 0                    }                ],                \"peersFrom\": {                    \"fromCache\": 0,                    \"fromDht\": 0,                    \"fromIncoming\": 0,                    \"fromLpd\": 0,                    \"fromLtep\": 0,                    \"fromPex\": 0,                    \"fromTracker\": 1                }            }        ]    },    \"result\": \"success\"}".utf8)
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .secondsSince1970
+        let response = try? decoder.decode(JSONPeers.self, from: data)
+        if let peers = response?.arguments.torrents.first {
+            connector.peers = peers.peers
+            connector.peerStat = peers.peersFrom
+        }
         return connector
     }()
     static let appState: AppState = {
         let appState = AppState()
-        appState.sizeIsCompact = false
+        appState.sizeIsCompact = true
         appState.isLandscape = false
         appState.detailViewIsDisplayed = false
-        appState.isiPhone = false
+        appState.isiPhone = true
         appState.horizontalSizeClass = .regular
         appState.verticalSizeClass = .regular
         return appState

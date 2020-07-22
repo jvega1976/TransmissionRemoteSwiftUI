@@ -22,8 +22,6 @@ struct TransferSpeeds: View {
                 .foregroundColor(self.sessionConfig.speedLimitDownEnabled ? .systemRed : .secondaryLabel)
                     .formatHalfCloudIcon()
             Text(ByteCountFormatter.formatByteRate(self.sessionStats.downloadSpeed))
-                .scaledToFit()
-                .minimumScaleFactor(0.75)
                 .speedLimitColor(self.sessionConfig.speedLimitDownEnabled)
             Spacer()
             VStack {
@@ -32,7 +30,6 @@ struct TransferSpeeds: View {
                     .scaledToFill()
                     .frame(width: self.appState.sizeIsCompact ? 25 : 35, height: self.appState.sizeIsCompact ? 25 : 35)
                 Text(self.connector.freeSpace)
-                    .font(.footnote)
                     .foregroundColor(Color.secondary)
                     .multilineTextAlignment(.center)
             }
@@ -41,12 +38,12 @@ struct TransferSpeeds: View {
                     .equatable()
                     .foregroundColor(self.sessionConfig.speedLimitUpEnabled ? .systemRed : .secondaryLabel)
                     .formatHalfCloudIcon()
-
             Text(ByteCountFormatter.formatByteRate(self.sessionStats.uploadSpeed))
-                .scaledToFit()
-                .minimumScaleFactor(0.75)
                 .speedLimitColor(self.sessionConfig.speedLimitUpEnabled)
         }
+        .font(self.appState.sizeIsCompact && !self.appState.isiPhone ? .footnote : nil)
+        .minimumScaleFactor(0.75)
+        .lineLimit(1)
         .foregroundColor(.secondaryLabel)
         .padding(.horizontal, 20.0)
     }
@@ -56,6 +53,7 @@ struct TransferSpeeds_Previews: PreviewProvider {
     
     static let connector: RPCConnector = {
         let connector = RPCConnector()
+        connector.freeSpace = "679 GB"
         return connector
     }()
     
@@ -70,7 +68,7 @@ struct TransferSpeeds_Previews: PreviewProvider {
         
         TransferSpeeds(sessionStats: connector.sessionStats, sessionConfig: connector.sessionConfig)
             .preferredColorScheme(.dark)
-            .previewDevice("iPad Pro (10.5-inch)")
+            .previewDevice("iPhone 8 Plus")
             .environmentObject(connector)
             .environmentObject(appState)
             .environment(\.colorScheme, .dark)

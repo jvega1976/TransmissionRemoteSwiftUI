@@ -16,7 +16,7 @@ struct TorrentFiles: View {
     var haveToRefresh: Bool = true
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             if haveToRefresh {
                 List(connector.torrent.files.rootItem.items ?? [], children: \.items, selection: self.$connector.selectedFiles) {item in
                     FileRowView(item: item, haveToRefresh: self.haveToRefresh)
@@ -33,10 +33,8 @@ struct TorrentFiles: View {
 struct TorrentFiles_Previews: PreviewProvider {
     
     @ObservedObject static var connector: RPCConnector = {
-        let connector: RPCConnector = RPCConnector(serverConfig: RPCServerConfig())
-        connector.session = try? RPCSession(withURL: connector.serverConfig!.configURL!, andTimeout: connector.serverConfig!.requestTimeout)
-        connector.torrent.trId = 40
-        connector.getFiles()
+        let connector: RPCConnector = RPCConnector()
+        connector.torrent = torrentsPreview().first!
         return connector
     }()
     
@@ -64,7 +62,6 @@ struct TorrentFiles_Previews: PreviewProvider {
                 .environmentObject(appStateCompact)
                 .environment(\.editMode, $connector.fileEditMode)
                 .previewDevice(PreviewDevice(stringLiteral: "iPhone 8 Plus"))
-            //.environment(\.colorScheme, .dark)
             
             TorrentFiles()
                 .environmentObject(connector)
@@ -274,7 +271,6 @@ struct FileRowView: View, Equatable {
                 }
             }
         }
-        //.padding(.horizontal, appState.sizeIsCompact ? 5 : 10)
         .padding()
         .background(self.colorScheme == .light ? Color(.sRGB, white: 0.95, opacity: 0.95) : Color(.sRGB, white: 0.05, opacity: 0.95))
         .cornerRadius(15)

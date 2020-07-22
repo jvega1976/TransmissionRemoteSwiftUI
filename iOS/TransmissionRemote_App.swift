@@ -39,7 +39,6 @@ struct TransmissionRemote_App: App {
         delegate.connector = connector
         delegate.appState = appState
         UIDevice.current.beginGeneratingDeviceOrientationNotifications()
-        NotificationsManager.main.enableNotifications()
     }
     
     var body: some Scene {

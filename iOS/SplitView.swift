@@ -31,7 +31,7 @@ struct SplitView: View {
                             .environmentObject(self.connector.message)
                             .environmentObject(self.connector.categorization)
                             .environment(\.editMode, self.$connector.editMode)
-                            .frame(width: withAnimation { !self.appState.sizeIsCompact && self.appState.detailViewIsDisplayed ? geometry.size.width/2.5 : geometry.size.width } , height: geometry.size.height , alignment: .center)
+                            .frame(width: !self.appState.sizeIsCompact && self.appState.detailViewIsDisplayed ? geometry.size.width/2.5 : geometry.size.width, height: geometry.size.height, alignment: .center)
                         Divider()
                         if !self.connector.categorization.itemsForSelectedCategory.isEmpty && !self.appState.sizeIsCompact && self.appState.detailViewIsDisplayed {
                             NavigationView {
@@ -49,7 +49,6 @@ struct SplitView: View {
                         }
                     }, alignment: .center)
                     .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
-                    .scaledToFit()
                     .blur(radius: self.displayServers || self.displaySessionConfig || self.displayStats ? 5 : 0)
                 if self.displayServers {
                     ServerConfigList(displayServers: self.$displayServers)
@@ -125,7 +124,7 @@ struct SplitView_Previews: PreviewProvider {
 
     static let appState: AppState = {
         let appState = AppState()
-        appState.sizeIsCompact = false
+        appState.sizeIsCompact = true
         appState.isLandscape = false
         //appState.detailViewIsDisplayed = true
         return appState
@@ -144,8 +143,7 @@ struct SplitView_Previews: PreviewProvider {
 
     static var previews: some View {
         SplitView()
-            .previewDevice("iPad Pro (10.5-inch)")
-            .previewLayout(.fixed(width: 1112, height: 834))
+            .previewDevice("iPhone 8 Plus")
             .preferredColorScheme(.dark)
             .environment(\.colorScheme, .dark)
             .environmentObject(connector)
