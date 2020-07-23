@@ -99,6 +99,8 @@ struct SplitView: View {
                         }
                         self.appRestarting.toggle()
                     case .active:
+                        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+                        UIApplication.shared.applicationIconBadgeNumber = 0
                         self.appState.horizontalSizeClass = self.horizontalSizeClass
                         self.appState.verticalSizeClass = self.verticalSizeClass
                     @unknown default:

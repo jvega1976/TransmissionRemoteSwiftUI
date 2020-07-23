@@ -156,6 +156,7 @@ enum BgTaskType {
     
     @objc func reconnectSession() {
         try? self.session?.restart()
+        self.firstTime = true
         self.startRefresh()
     }
     

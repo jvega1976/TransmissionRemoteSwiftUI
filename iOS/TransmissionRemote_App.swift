@@ -34,8 +34,6 @@ struct TransmissionRemote_App: App {
             }
             // Enable or disable features based on authorization.
         })
-        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
-        UIApplication.shared.applicationIconBadgeNumber = 0
         delegate.connector = connector
         delegate.appState = appState
         UIDevice.current.beginGeneratingDeviceOrientationNotifications()
